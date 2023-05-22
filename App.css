@@ -1,0 +1,12 @@
+.App{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  background-color:rgb(255, 255, 255)
+}
+.main{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content: center;
+}

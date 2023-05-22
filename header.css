@@ -1,0 +1,82 @@
+.header{
+    display: flex;
+    flex-direction:row;
+    background-color: antiquewhite;
+}
+.img-logo{
+    width:8%;
+    margin:15px;
+}
+.nome{
+    margin:60px 7px;
+    font-size:40px;
+}
+.themes{
+    margin:5% 45%;
+}
+.white{
+    background-color: white;
+    border:none;
+    padding:8.5px 17px;
+    width:15%;
+    border-radius:25px;
+    margin:7px;
+}
+.White{
+    background-color: white;
+}
+.white:hover{
+    padding:12.5px 21px;
+    border:0.5px solid grey;
+    transition:0.4s;
+}
+.black{
+    background-color: rgb(0, 0, 0);
+    border:none;
+    padding:8.5px 17px;
+    width:15%;
+    border-radius:25px;
+    margin:7px;
+}
+.Black{
+    background-color: rgb(0, 0, 0);
+}
+.black:hover{
+    padding:12.5px 21px;
+    border:0.5px solid grey;
+    transition:0.4s;
+}
+.blue{
+    background-color: rgb(31, 54, 226);
+    border:none;
+    padding:8.5px 17px;
+    width:15%;
+    border-radius:25px;
+    margin:7px;
+}
+.Blue{
+    background-color: rgb(31, 54, 226);
+}
+.blue:hover{
+    padding:12.5px 21px;
+    border:0.5px solid grey;
+    transition:0.4s;
+}
+.img{
+    background-image: url("https://th.bing.com/th/id/R.c521dcde177259d3164df1da77654393?rik=7m8gwSW3mLsCwg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f10%2fDiamond-Pattern-Backgrounds-For-Desktop.jpg&ehk=yYpQc%2b%2fVvOJ7cR%2b%2fGzeN8Z51rutk00lAvzpfmJ97UzY%3d&risl=&pid=ImgRaw&r=0");
+    background-size:cover;
+    border:none;
+    padding:8.5px 17px;
+    width:15%;
+    border-radius:25px;
+    margin:7px;
+}
+.Img{
+    background-image: url("https://th.bing.com/th/id/R.c521dcde177259d3164df1da77654393?rik=7m8gwSW3mLsCwg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f10%2fDiamond-Pattern-Backgrounds-For-Desktop.jpg&ehk=yYpQc%2b%2fVvOJ7cR%2b%2fGzeN8Z51rutk00lAvzpfmJ97UzY%3d&risl=&pid=ImgRaw&r=0");
+    background-size:cover;
+}
+.img:hover{
+    padding:12.5px 21px;
+    border:0.5px solid grey;
+    transition:0.2s;
+}
